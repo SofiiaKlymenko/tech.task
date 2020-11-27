@@ -1,0 +1,75 @@
+:root {
+    --gray-color: #636c6c;
+    --white-color: #ffffff;
+    --light-gray-color: #afb8b8;
+    --green-color: #5DCA88;
+    --light-green-color: #9dc7d1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-r-5 {
+    margin-right: 5px;
+}
+
+.m-l-5 {
+    margin-left: 5px;
+}
+
+.fixed-width {
+    width: 50%;
+}
+
+.phone-image {
+    height: 510px;
+}
+
+.gray {
+    color: var(--gray-color);
+}
+
+.light-gray {
+    color: var(--light-gray-color);
+}
+
+.button {
+    background: none!important;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 2px solid var(--light-green-color);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.font-bigger {
+    font-size: 18px;
+}
