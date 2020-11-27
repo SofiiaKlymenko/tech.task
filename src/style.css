@@ -94,7 +94,7 @@ ul.hr li {
     width: 100%;
     color: var(--white-color);
     background-size: cover;
-    background-image: url(./assets/images/Group2.png);
+    background-image: url(../assets/images/Group2.png);
     background-repeat: no-repeat;
 }
 
@@ -426,7 +426,7 @@ footer .icons i {
     }
     
     .block1 {
-        background: url('./assets/images/background_.png');
+        background: url('../assets/images/background_.png');
     }
     
     .gallery {
