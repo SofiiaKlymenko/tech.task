@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 11" width="10" height="11">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #8c9494 } 
+	</style>
+	<g id="testimonials">
+		<path id="dots" class="shp0" d="M4.98 0.38C7.74 0.38 9.98 2.62 9.98 5.38C9.98 8.14 7.74 10.38 4.98 10.38C2.21 10.38 -0.02 8.14 -0.02 5.38C-0.02 2.62 2.21 0.38 4.98 0.38Z" />
+	</g>
+</svg>
