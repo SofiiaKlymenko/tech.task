@@ -251,8 +251,10 @@ ul.hr li {
 }
 
 .carousel {
+    display: flex;
+    justify-content: center;
     position: relative;
-    padding: 10px 180px;
+    padding: 10px 0px;
 }
 
 .carousel img {
@@ -260,7 +262,7 @@ ul.hr li {
 }
 
 .gallery {
-    width: 850px;
+    width: 827px;
     overflow: hidden;
 }
 
@@ -287,18 +289,20 @@ ul.hr li {
 }
 
 .block4 .arrow {
-    position: absolute;
+    /* position: absolute; */
+    height: min-content;
+    align-self: center;
     display: block;
     top: 34%;
     cursor: pointer;
 }
 
 .block4 .arrow-prev {
-    left: 7px;
+    padding-right: 40px;
 }
 
 .block4 .arrow-next {
-    right: 7px;
+    padding-left: 40px;
 }
 
 .block6 h1 {
@@ -430,11 +434,11 @@ footer .icons i {
     }
     
     .gallery {
-        width: 280px !important;
+        width: 250px !important;
     }
 
     .carousel {
-        padding: 10px 35%;
+        /* padding: 10px 35%; */
     }
 }
 
@@ -444,7 +448,7 @@ footer .icons i {
     }
 
     .gallery {
-        width: 575px;
+        width: 538px;
     }
 
     .block3-container div {
